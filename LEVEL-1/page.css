@@ -1,0 +1,195 @@
+@media screen and (max-width: 768px) {
+    /* Adjust header */
+    header {
+      text-align: center;
+    }
+  
+    /* Adjust navigation */
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* Adjust hero section */
+    #hero {
+      text-align: center;
+    }
+  
+    /* Adjust beach gallery */
+    #beach-gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+  body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/Screenshot\ 2024-01-29\ 215613.png);
+    
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+  background-size: cover;
+    
+
+  }
+  
+  /* Set font styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    color: cornsilk;
+  }
+  
+  /* Style the header */
+  header {
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  nav ul li:hover a {
+    color: #ff0000;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the hero section */
+  #hero {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f2f2f2;
+  }
+  
+  #hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Style the beach gallery */
+  #beach-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 350px;
+    gap: 20px;
+  }
+  
+  .beach-image {
+    text-align: center;
+  }
+  
+  .beach-image img {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+  }
+  
+  .beach-image h3 {
+    margin-top: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  .payment-section {
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .payment-section form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .payment-section label {
+    margin-bottom: 10px;
+  }
+  
+  .payment-section input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .payment-section button[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #payment{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: auto;
+    margin-left: 450px;
+    margin-top: -450px;
+  }
+  
